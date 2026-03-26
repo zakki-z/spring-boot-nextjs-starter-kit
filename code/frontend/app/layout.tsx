@@ -4,6 +4,7 @@ import { Inter as FontSans } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import "@mantine/core/styles.css";
+import "@mantine/charts/styles.css";
 import {
   ColorSchemeScript,
   MantineProvider,

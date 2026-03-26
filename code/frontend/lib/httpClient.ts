@@ -1,6 +1,5 @@
 import { RestApplicationClient } from '@/models/backend'
 import Axios from 'axios'
-require('dotenv').config()
 
 const httpClient = Axios.create({
   baseURL: process.env.NEXT_PUBLIC_BASE_URL!, 
